@@ -7,7 +7,7 @@
         "options": {
           "rateLimitBy": "function",
           "requestsAllowed": 2,
-          "timeWindowMinutes": 1,
+          "timeWindowMinutes": 2,
           "identifier": {
             "module": "$import(./modules/rate-limiter)",
             "export": "rateLimitKey"
